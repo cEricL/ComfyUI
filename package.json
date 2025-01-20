@@ -1,0 +1,32 @@
+{
+  "name": "comfyui_local",
+  "version": "1.0.0",
+  "description": "A hybrid of Enterprise Resource Planning and Enterprise Services Offering portfolio.",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc",
+    "test": "mocha -r ts-node/register 'src/**/*.test.ts'"
+  },
+  "dependencies": {
+    "dotenv": "latest",
+    "express": "latest",
+    "glob": "latest",
+    "lru-cache": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@types/express": "latest",
+    "@types/node": "latest",
+    "mocha": "latest",
+    "chai": "latest",
+    "@types/mocha": "latest",
+    "@types/chai": "latest"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "",
+  "license": "ISC"
+}
