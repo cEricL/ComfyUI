@@ -32,3 +32,16 @@ yarn-error.log*
 # Windows
 Thumbs.db
 ehthumbs.db
+
+# ComfyUI specific
+comfyui/venv/
+comfyui/__pycache__/
+comfyui/**/__pycache__/
+comfyui/models/
+comfyui/output/
+comfyui/temp/
+comfyui/*.pyc
+comfyui/**/*.pyc
+comfyui/custom_nodes/__pycache__/
+comfyui/web/extensions/
+comfyui/input/
