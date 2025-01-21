@@ -1,0 +1,23 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "types": [
+            "mocha",
+            "chai",
+            "chai-as-promised",
+            "sinon",
+            "sinon-chai",
+            "node"
+        ],
+        "noEmit": true,
+        "baseUrl": ".",
+        "paths": {
+            "@test/*": ["./test/*"],
+            "@src/*": ["../src/*"]
+        }
+    },
+    "include": [
+        "../src/**/*.ts",
+        "./**/*.ts"
+    ]
+}
