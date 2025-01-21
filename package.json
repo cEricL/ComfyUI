@@ -22,7 +22,13 @@
     "mocha": "latest",
     "chai": "latest",
     "@types/mocha": "latest",
-    "@types/chai": "latest"
+    "@types/chai": "latest",
+    "@types/chai-as-promised": "latest",
+    "@types/sinon": "latest",
+    "@types/sinon-chai": "latest",
+    "chai-as-promised": "latest",
+    "sinon": "latest",
+    "sinon-chai": "latest"
   },
   "engines": {
     "node": ">=20"
