@@ -38,4 +38,9 @@ export class ServiceManager {
       throw new Error(`Service ${name} not found`);
     }
   }
+
+  async init(): Promise<void> {
+    // Initialize service manager
+    return Promise.resolve();
+  }
 }

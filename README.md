@@ -3,9 +3,29 @@
 ## Description
 A hybrid of Enterprise Resource Planning and Enterprise Services Offering portfolio.
 
+## Project Structure
+
+### Core Components
+- ComfyUI Integration - Local UI framework integration
+- Service Manager - Handles service lifecycle and communication
+- Health Monitoring - System and service health checks
+- Error Handling - Centralized error management
+
+### Feature Roadmap
+- [ ] Agent Implementation
+- [ ] Service Discovery
+- [ ] Workflow Management
+- [ ] UI Component Library
+- [ ] Authentication & Authorization
+- [ ] API Documentation
+
 ## Installation
 1. Clone the repository
-2. Run `npm install` to install dependencies
+2. 2. Initialize and update ComfyUI submodule:
+   ```powershell
+   git submodule init
+   git submodule update
+3. Run `npm install` to install dependencies
 
 ## Usage
 - `npm start` to start the application
@@ -28,6 +48,7 @@ hybrid-erp-eso-app
 ├── package.json           # npm configuration file
 ├── tsconfig.json          # TypeScript configuration file
 └── README.md              # Project documentation
+└── .gitmodules         # Git submodule configuration
 ```
 
 ## Features
